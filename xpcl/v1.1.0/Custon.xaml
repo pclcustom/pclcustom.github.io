@@ -1,0 +1,36 @@
+<local:MyCard Title="欢迎使用 XPCL" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight" Text="打开 xyz8848的博客" EventType="打开网页" EventData="http://www.xyz8848.com/" ToolTip="点击打开 xyz8848的博客！" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight" Text="打开 XPCL官网" EventType="打开网页" EventData="https://www.yuque.com/xpcl" ToolTip="点击打开 XPCL 官网！" />
+        <TextBlock TextWrapping="Wrap" Margin="20,5,20,0" FontSize="11" Text=" Minecraft 以及 我的世界 为Mojang Synergies AB的商标" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="启动游戏" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="启动 XPCL(1.8.9)" EventType="启动游戏" EventData="XPCL - 1.8.9" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="服务器IP" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,0" Width="250" Height="35" Text="复制 Hypixel 服务器IP" EventType="复制文本" EventData="mc.hypixel.net" />
+        <local:MyButton Margin="0,8,0,0" Width="250" Height="35" Text="复制 syuu 服务器IP" EventType="复制文本" EventData="syuu.net" />
+        <local:MyButton Margin="0,8,0,0" Width="250" Height="35" Text="复制 syuu中国节点 服务器IP" EventType="复制文本" EventData="china.syuu.net" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="MC常用网站" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="点击查看" EventType="打开网页" EventData="http://www.xyz8848.com/post/mc-chang-yong-wang-zhan/" ToolTip="点击查看！" />
+        </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="刷新主页" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,0,0,7" IsWarn="False" Text="点击下面的按钮刷新主页。" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="刷新主页" EventType="刷新主页" ToolTip="刷新主页" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
