@@ -38,5 +38,7 @@
 </local:MyCard>
 
 <local:MyCard Title="关于" Margin="0,0,0,15">
-    <TextBlock TextWrapping="Wrap" FontSize="11" Text="Powered by Mojang&#xA;Made by xyz8848&#xA;Version: 4.0" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="Powered by Mojang" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="Made by xyz8848" />
+    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" Text="Version: 4.0" />
 </local:MyCard>
