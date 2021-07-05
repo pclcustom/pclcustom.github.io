@@ -8,8 +8,9 @@
 
 <local:MyCard Title="启动游戏" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="启动 XPCL(1.8.9)" EventType="启动游戏" EventData="XPCL - 1.8.9" />
-        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="启动 XPCL(1.16.5)" EventType="启动游戏" EventData="XPCL - 1.16.5" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="启动 XPCL-LabyMod(1.8.9)" EventType="启动游戏" EventData="XPCL(LabyMod) - 1.8.9" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="启动 XPCL-Life(1.8.9)" EventType="启动游戏" EventData="XPCL(Life) - 1.8.9" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="启动 XPCL-Life(1.16.5)" EventType="启动游戏" EventData="XPCL(Life) - 1.16.5" />
     </StackPanel>
 </local:MyCard>
 
@@ -36,4 +37,4 @@
     </StackPanel>
 </local:MyCard>
 <local:MyCard Title="关于" Margin="0,0,0,15">
-    <TextBlock TextWrapping="Wrap" Margin="20,5,20,0" FontSize="11" Text="Powered by Mojang&#xA;Made by xyz8848&#xA;Version: 4.0" />
+    <TextBlock TextWrapping="Wrap" FontSize="11" Text="Powered by Mojang&#xA;Made by xyz8848&#xA;Version: 4.0" />
