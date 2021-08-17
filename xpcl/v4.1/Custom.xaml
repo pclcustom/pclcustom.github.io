@@ -1,5 +1,6 @@
 <local:MyCard Title="欢迎使用 XPCL-v4.1" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="有新版本，请前往官网更新！" />
         <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight" Text="打开 xyz8848的博客" EventType="打开网页" EventData="http://www.xyz8848.com/" ToolTip="点击打开 xyz8848的博客！" />
         <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight" Text="打开 XPCL 官网" EventType="打开网页" EventData="http://pcl.xyz8848.com/" ToolTip="点击打开 XPCL 官网！" />
         <TextBlock TextWrapping="Wrap" Margin="20,5,20,0" FontSize="11" Text="Minecraft 以及 我的世界 为Mojang Synergies AB的商标" />
