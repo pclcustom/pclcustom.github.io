@@ -14,27 +14,10 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="服务器IP" Margin="0,0,0,15" CanSwap="True">
+<local:MyCard Title="问题反馈" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyButton Margin="0,8,0,0" Width="250" Height="35" Text="复制 Hypixel 服务器IP" EventType="复制文本" EventData="mc.hypixel.net" />
-        <local:MyButton Margin="0,8,0,0" Width="250" Height="35" Text="复制 syuu 服务器IP" EventType="复制文本" EventData="syuu.net" />
-        <local:MyButton Margin="0,8,0,0" Width="250" Height="35" Text="复制 syuu中国节点 服务器IP" EventType="复制文本" EventData="china.syuu.net" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="MC常用网站" Margin="0,0,0,15" CanSwap="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="点击查看" EventType="打开网页" EventData="http://www.xyz8848.com/post/mc-chang-yong-wang-zhan/" ToolTip="点击查看！" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="点击这里进行反馈" EventType="打开网页" EventData="http://pcl.xyz8848.com/xpcl/issues.html" ToolTip="愣着干嘛？反馈呀！" />
         </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="刷新主页" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,0,0,7" IsWarn="False" Text="点击下面的按钮刷新主页。" />
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
-            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" Text="刷新主页" EventType="刷新主页" ToolTip="刷新主页" />
-        </StackPanel>
-    </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="关于" Margin="0,0,0,15">
