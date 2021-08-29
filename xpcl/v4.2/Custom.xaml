@@ -16,7 +16,7 @@
 
 <local:MyCard Title="问题反馈" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="点击这里进行反馈" EventType="打开网页" EventData="http://pcl.xyz8848.com/xpcl/issues.html" ToolTip="愣着干嘛？反馈呀！" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="点击这里进行反馈" EventType="打开网页" EventData="https://www.yuque.com/xpcl/issues" ToolTip="愣着干嘛？反馈呀！" />
         </StackPanel>
 </local:MyCard>
 
