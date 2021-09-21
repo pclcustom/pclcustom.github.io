@@ -14,9 +14,9 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="问题反馈" Margin="0,0,0,15" CanSwap="True">
+<local:MyCard Title="问题反馈 & 建议" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="点击这里进行反馈" EventType="打开网页" EventData="https://www.yuque.com/xpcl/issues" ToolTip="愣着干嘛？反馈呀！" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" Text="问题反馈 & 建议" EventType="打开网页" EventData="https://support.qq.com/product/352564" ToolTip="愣着干嘛？快告诉我们呀！" />
         </StackPanel>
 </local:MyCard>
 
